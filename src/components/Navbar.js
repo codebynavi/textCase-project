@@ -8,7 +8,7 @@ export default function Navbar(props) {
         <nav className={`navbar shadow navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/">
-                <img height="auto" width="160" src={`/textcase-${props.mode}.png`} alt="TextCase Logo" />
+                <img height="auto" width="160" src={`textcase-${props.mode}.png`} alt="TextCase Logo" />
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
