@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/textCase-project/static/css/main.b7581ea9.css",
+    "main.js": "/textCase-project/static/js/main.76f3c709.js",
+    "static/js/787.2dd5da70.chunk.js": "/textCase-project/static/js/787.2dd5da70.chunk.js",
+    "index.html": "/textCase-project/index.html",
+    "main.b7581ea9.css.map": "/textCase-project/static/css/main.b7581ea9.css.map",
+    "main.76f3c709.js.map": "/textCase-project/static/js/main.76f3c709.js.map",
+    "787.2dd5da70.chunk.js.map": "/textCase-project/static/js/787.2dd5da70.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7581ea9.css",
+    "static/js/main.76f3c709.js"
+  ]
+}
