@@ -70,7 +70,7 @@ export default function TextForm(props) {
                 <h1 className="text-center mt-5 fw-bold">{props.heading}</h1>
                 <p className='text-center mb-3'>Forget your <b>Typing Text Case Mistake</b>, Convert your Text in Just <b>ONE CLICK</b></p>
                 <div className="mb-3">
-                    <textarea className="form-control rounded-1" id="myBox" onChange={handleOnChange} rows="10" placeholder="Enter Text Here" value={text} style={{ backgroundColor: props.mode === 'dark' ? 'grey' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }}></textarea>
+                    <textarea className="form-control rounded-1" id="myBox" onChange={handleOnChange} rows="8" placeholder="Enter Text Here" value={text} style={{ backgroundColor: props.mode === 'dark' ? 'grey' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }}></textarea>
 
                     <button className="btn btn-primary mt-2 btn-sm me-2 rounded-0" onClick={upperCase}>Convert to UPPERCASE</button>
                     <button className="btn btn-primary mt-2 btn-sm me-2 rounded-0" onClick={lowerCase}>Convert to lowercase</button>
